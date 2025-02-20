@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Voice" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Voice" parent="Base.Theme.Voice" />
+    <style name="Theme.Voice.Fullscreen" parent="Theme.Voice">
+        <item name="android:actionBarStyle">@style/Widget.Theme.Voice.ActionBar.Fullscreen</item>
+        <item name="android:windowActionBarOverlay">true</item>
+
+    </style>
+
+    <style name="ThemeOverlay.Voice.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+</resources>
